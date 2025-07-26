@@ -1,6 +1,6 @@
  import uploadOnCloudinary from "../Config/cloudinary.js"
 import geminiResponse from "../gemini.js"
-import User from "../models/user.model.js"
+import User from "../Models/user.model.js"
 import moment from "moment"
  export const getCurrentUser=async (req,res)=>{
     try {
